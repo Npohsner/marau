@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 main{
-
+   min-width: 320;
+   max-width: 900;
     
 }
 
