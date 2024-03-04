@@ -15,6 +15,9 @@
             background-repeat: no-repeat ;
             background-size: cover;
         }
+        div{
+            text-align: center;
+        }
         h1{
             color: white;
             text-align: center;
@@ -37,13 +40,28 @@
         a{
             color: white;
         }
-        a:hover {             /*quando passa o mouse em cima*/
-    background-color: var(--cor3);
-    color: rgb(29, 6, 243);
-        }
-        nav{
+
+        
+        nav{                        /*menu*/
+            background-color: var(--cor5);
+            padding: 10px; /*distanciamento*/
+            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
             text-align: center;
         }
+
+        nav > a{                    /*link do menu*/
+            color: white;
+            padding: 10px; /*dist. dos links*/
+            border-radius: 5px; /*arred. da borda*/
+            text-decoration: none; /*tirar sublinhado*/ 
+            font-weight: bolder; /*negrito*/
+        }
+
+        nav > a:hover {             /*quando passa o mouse em cima*/
+            background-color: var(--cor3);
+            color: rgb(136, 208, 250);
+        }
+
         img{
             padding: 4px;
         }
@@ -51,7 +69,16 @@
 
 </head>
 <body>
-    <a href="index.html">VOLTAR PAGINA INICIAL</a>
+    <nav>
+        <a href="index.html">PAGINA INICIAL</a>
+        <a href="pag003.html">PROFESSORES</a>    
+        <a href="pag004.html">PROGRAMAÇÃO</a>
+        <a href="pag002.html">PACOTES</a>
+        <a href="pag006.html">COMO CHEGAR</a>
+        </nav>
+    <br>
+    <br>
+    <br>
     <br>
     <h1>POUSADA CANTO DO SOL</h1>
     <p>
@@ -164,12 +191,28 @@ Faça sua reserva:
     <img src="imagens/15.jpg" alt="">
     <img src="imagens/16.jpg" alt=""> 
     
-<nav>
-    
-    <a href="https://www.instagram.com/cantodosolpousada?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-        <img src="imagens/logo instagram.jpeg" alt="">
-    </a>
-</nav>
+
+    <h4>
+        <a href="https://www.instagram.com/cantodosolpousada?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <img src="imagens/logo instagram.jpeg" alt="">
+        </a>
+    </h4>
+    <br>
+    <br>
+    <div>
+    <h4>Patrocinador Oficial</h4>
+    <img src="imagens/CANTO DO SOL PRAIA 1_page-0001.jpg" alt="Canto do Sol Praia Logo">
+    <br>
+    <h4>Apoio</h4> 
+    <img src="imagens/apoio/organização internaciaonal de lambada.jpg" alt="">
+    <img src="imagens/apoio/Logo indyo normal fundo.jpg" alt="">
+    <img src="imagens/apoio/zouk army.png" alt="">
+    <img src="imagens/apoio/chinelo e areia_page-0001.jpg" alt=""> 
+    <img src="imagens/apoio/logo camamu adventure_page-0001.jpg" alt="">
+    <img src="imagens/apoio/secretaria do turismo.jpg" alt="">
+    <img src="imagens/apoio/zouk for fa.png" alt="">
+    <img src="imagens/apoio/LOGO EMBRAZOUK - FUNDO TRANSPARENTE.png" alt="">
+    </div>
     
 
 
