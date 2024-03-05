@@ -91,3 +91,6 @@ img{
 video{
    width: 60%;
 }
+.linguagem > a{
+   text-align: right;
+}
