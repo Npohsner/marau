@@ -71,8 +71,8 @@ body {
 }
 
 nav > a{                    /*link do menu*/
-    color: white;
-    background-color: rgb(216, 31, 154);
+    color: rgb(252, 249, 251);
+    
     padding: 10px; /*dist. dos links*/
     border-radius: 5px; /*arred. da borda*/
     text-decoration: none; /*tirar sublinhado*/ 
