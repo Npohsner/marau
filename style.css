@@ -33,13 +33,17 @@ body {
  h3{
     color: white;
     box-shadow: none;
-    text-align: left;
+    text-align: center;
     margin: 15px;
  }
 
  h4{
     color: white;
     box-shadow: none;
+ }
+ 
+ h5{
+   color: white;
  }
 
  p{
