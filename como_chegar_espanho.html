@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cómo llegar</title>
+    <title>Como chegar</title>
 
     <style>
+         main{
+           min-width: 320;
+            max-width: 900; 
+        }
         body{
             text-align: center;
+            border-color: rgb(243, 226, 151);
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(243, 226, 151);
+            margin: auto;
+            background: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
+            
+        }
+        nav > a{                    /*link do menu*/
+            color: white;
+           
+            padding: 10px; /*dist. dos links*/
+            border-radius: 5px; /*arred. da borda*/
+            text-decoration: none; /*tirar sublinhado*/ 
+            font-weight: bolder; /*negrito*/
+        }
+
+        nav > a:hover {             /*quando passa o mouse em cima*/
+            background-color: var(--cor3);
+            color: rgb(136, 208, 250);
         }
     </style>
 
@@ -15,11 +39,21 @@
 
 </head>
 <body>
-    
-    <a href="inicial_espanhol.html">INICIO</a>
+    <div class="logo">
+        <img src="imagens/maraú02.png" alt="logo">
+        </div>
+        <nav>
+            <a href="inicial_espanhol.html">INICIO</a>
+            <a href="professores_espanhol.html">ARTISTAS</a>    
+            <a href="programacao_espanhol.html">PROGRAMACIÓN</a>
+            <a href="pacotes_espanhol.html">PAQUETES</a>
+            <a href="hospedagem_espanhol.html">HOSPEDAJE</a>
+            </nav>  
     <br>
     <br>
-    <img src="imagens/teste/pagina em contrução em ESPANHOL.png" alt="">
+    <img src="imagens/guia/MDF_GUIA_01.png" alt="">
+    <img src="imagens/guia/MDF_GUIA_02.png" alt="">
+    <img src="imagens/guia/MDF_GUIA_03.png" alt="">
 </body>
 
 </html>
