@@ -75,7 +75,8 @@ body {
 }
 
 nav > a{                    /*link do menu*/
-    color: rgb(252, 249, 251);
+   color: rgb(136, 208, 250);
+   background-color: orangered;
     
     padding: 10px; /*dist. dos links*/
     border-radius: 5px; /*arred. da borda*/
@@ -84,8 +85,8 @@ nav > a{                    /*link do menu*/
 }
 
 nav > a:hover {             /*quando passa o mouse em cima*/
-    background-color: var(--cor3);
-    color: rgb(136, 208, 250);
+    color: orangered;
+    background-color: rgb(136, 208, 250);
 }
 
 img{

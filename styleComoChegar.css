@@ -1,0 +1,37 @@
+main{
+    min-width: 320;
+    max-width: 900; 
+}
+body{
+    text-align: center;
+    border-color: rgb(243, 226, 151);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 226, 151);
+    margin: auto;
+    background-color: rgb(243, 226, 151);
+
+}
+nav > a{                    /*link do menu*/
+    background-color: orangered;
+    color: rgb(136, 208, 250);
+    padding: 10px; /*dist. dos links*/
+    border-radius: 5px; /*arred. da borda*/
+    text-decoration: none; /*tirar sublinhado*/ 
+    font-weight: bolder; /*negrito*/
+}
+
+nav > a:hover {             /*quando passa o mouse em cima*/
+    color: orangered;
+    background-color: rgb(136, 208, 250);
+}
+img{
+    width: 100%;
+}  
+
+.logo{
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
+
+
+}
