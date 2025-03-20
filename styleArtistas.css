@@ -1,0 +1,68 @@
+main{
+    min-width: 320;
+    max-width: 900;
+
+}
+body{
+    text-align: center; 
+    border-color: rgb(243, 226, 151);
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 226, 151);
+    margin: auto;
+    
+    
+}
+div{
+    display: inline-block;
+    padding: 10px;
+    
+   
+}
+.logo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    
+    background: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
+    width: 100%;
+    background-size: cover;
+    
+}
+
+nav > a{                    /*link do menu*/
+    background-color: orangered;
+    color: rgb(136, 208, 250);
+     
+     padding: 10px; /*dist. dos links*/
+     border-radius: 5px; /*arred. da borda*/
+     text-decoration: none; /*tirar sublinhado*/ 
+     font-weight: bolder; /*negrito*/
+ }
+
+
+a:hover {             /*quando passa o mouse em cima*/
+    background-color: rgb(136, 208, 250);
+    color: orangered;
+}
+ 
+
+
+h1{
+    color: orangered;
+}
+h3{
+    background-color: rgb(68, 185, 240);
+    margin-bottom: -17px;
+    margin-left: 10px;
+}
+.org{
+    margin:0;
+}
+p{
+    background-color: rgb(68, 185, 240); 
+    margin-left: 10px;
+}

@@ -3,92 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospedagem</title>
+    <title>Galeria</title>
 
-    <style>
-        body{
-            
-            border-color: rgb(243, 226, 151);
-            padding: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(243, 226, 151);
-            margin: auto;
-            background: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
-            
-        }
-        .logo > img{
-            width: 100%;
-            background-size: cover;
-            background: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
-        }
-        .pousadas{
-            text-align: center;
-            display: inline-block;
-            padding: auto;
-            background-color: white;
-            margin-inline: 10px;
-            
-        }
-        .pousadas_esgotada{
-            background-image: url(imagens/esgotado.jpeg);
-            background-repeat: no-repeat;
-            background-position: center;
-            text-align: center;
-            display: inline-block;
-            padding: auto;
-            background-color: white;
-            margin-inline: 10px;
-            
-        }
-        div{
-            text-align: center;
-            margin: 10px;
-            padding: 10px;
-        }
-        h1{
-            color: white;
-            text-align: center;
-        }
-        h2{
-            text-align: center;
-            color: white;
-        }
-        video{
-            width: 70%;
-                
-        }
-        a > img{
-            color: black;
-            text-align: center;
-        }
+    <link rel="shortcut icon" type="imagex/png" href="imagens/teste/mdf.ico">
 
-        
-        nav{                        /*menu*/
-            background-color: var(--cor5);
-            padding: 10px; /*distanciamento*/
-            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
-            text-align: center;
-        }
-
-        nav > a{                    /*link do menu*/
-            color: black;
-            padding: 10px; /*dist. dos links*/
-            border-radius: 5px; /*arred. da borda*/
-            text-decoration: none; /*tirar sublinhado*/ 
-            font-weight: bolder; /*negrito*/
-            
-        }
-
-        nav > a:hover {             /*quando passa o mouse em cima*/
-            background-color: var(--cor3);
-            color: rgb(136, 208, 250);
-        }
-
-        img{
-            padding: 4px;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="styleGaleria.css">
 
     <link rel="shortcut icon" type="imagex/png" href="imagens/teste/mdf.ico">
 
@@ -96,28 +15,32 @@
 <body>
     <div class="logo">
         <img src="imagens/maraú02.png" alt="logo">
-    </div>  
+    </div>
+
     <nav>
         <a href="index.html">PAGINA INICIAL</a>
         <!--
         <a href="pag003.html">ARTISTAS</a>    
         <a href="pag004.html">PROGRAMAÇÃO</a>
         <a href="pag007.html">AULAS</a>
-        -->
-        <a href="pag002.html">PACOTES</a>
-        <!--
         <a href="pag006.html">COMO CHEGAR</a>
         -->
+        <a href="pag002.html">PACOTES</a>
+        
         
     </nav>
+
     <br>
     <br>
     <br>
     <br>
+    
     <h1>MARAU DANCE FESTIVAL</h1>
     <h2>VIDEOS 2025</h2>
+
     <br>
     <br>
+
     <div>
         <video controls>  
         <source src="video/video01.mp4" type="video/mp4" >
@@ -142,8 +65,28 @@
         <source src="video/video04MOV.mov">
         </video>
     </div>
+
     <br>
     <br>
+
+    <h2>FOTOS 2025</h2>
+
+    <br>
+    <br>
+    
+    <div class="fotos">
+        <h3>BAILES</h3>
+        <a href="photos_bailes.html" >
+            <img src="imagens/fotos/Bailes - Fotos @thamyresvaladaresphotos/Baile de Abertura/1.jpg" alt="" width="25%" >
+        </a>
+    </div>
+    <div class="fotos">
+        <h3>AULAS</h3>
+        <a href="photos_aulas.html">
+        <img src="imagens/fotos/Aulas -Fotos @thamyresvaladaresphotos/Familia Lira/MDF -BA  - Fotos @thamyresvaladaresphotos-41.jpg" alt="" width="25%">
+    </a>
+    </div>
+
     <div class="poio">
         <h4>Patrocinador Oficial</h4>
         <a href="https://www.instagram.com/cantodosolpraia/" target="_blank">

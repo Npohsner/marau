@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleFotos.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="imagens/teste/mdf.ico">
+
+    <style>
+
+        nav{                        /*menu*/
+            background-color: var(--cor5);
+            padding: 10px; /*distanciamento*/
+            box-shadow: 0px 7px 9px white;
+            text-align: center;
+        }
+
+        nav > a{                    /*link do menu*/
+            color:white;
+            padding: 10px; /*dist. dos links*/
+            border-radius: 5px; /*arred. da borda*/
+            text-decoration: none; /*tirar sublinhado*/ 
+            font-weight: bolder; /*negrito*/
+        }
+
+        nav > a:hover {             /*quando passa o mouse em cima*/
+            background-color: var(--cor3);
+            color: rgb(136, 208, 250);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <img class="logo" src="imagens/maraú02.png" alt="logo">
+    </div>
+    
+    <nav>
+        <a href="pag008.html">VOLTAR/ BACK</a>
+    </nav>    
+        <br>
+        
+    <div class="slider">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+        
+
+
+            <div class="slide first">
+                <img src="imagens/fotos/Bailes - Fotos @thamyresvaladaresphotos/Baile de Abertura/1.jpg" alt="imagem1">
+            </div>
+            <div class="slide">
+                 <img src="imagens/fotos/Bailes - Fotos @thamyresvaladaresphotos/Baile de Abertura/10.jpg" alt="imagem2">
+            </div>
+             <div class="slide">
+                <img src="imagens/fotos/Bailes - Fotos @thamyresvaladaresphotos/Baile de Abertura/11.jpg" alt="imagem3">
+            </div>
+            <div class="slide">
+                <img src="imagens/fotos/Bailes - Fotos @thamyresvaladaresphotos/Baile de Abertura/12.jpg" alt="imagem4">
+            </div>
+
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+        
+    </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
