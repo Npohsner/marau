@@ -32,6 +32,10 @@ body{
     
 }
 
+.photo img{
+    width: 30%;
+}
+
 div{
     text-align: center;
     padding: 10px;
