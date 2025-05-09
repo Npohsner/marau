@@ -68,7 +68,7 @@ body {
      
  }
 
- nav{                        /*menu*/
+div > nav{                        /*menu*/
    
     padding: 10px; /*distanciamento*/
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
@@ -98,7 +98,7 @@ img{
 video{
    width: 60%;
 }
-.linguagem > a{
+.linguagem {
    text-align: right;
 }
 .Patrocinio img{
