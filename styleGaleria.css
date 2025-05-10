@@ -80,3 +80,7 @@ nav > a:hover {             /*quando passa o mouse em cima*/
 img{
     padding: 4px;
 }
+
+.Patrocinio img{
+   width: 100%;
+}
