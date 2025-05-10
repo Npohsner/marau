@@ -15,7 +15,7 @@
             font-family: Arial, Helvetica, sans-serif;
             background-color: rgb(243, 226, 151);
             margin: auto;
-            background: linear-gradient(to top, rgb(238, 203, 49),rgb(245, 86, 46));
+            text-align: center;
             
         }
         .logo > img{
@@ -26,7 +26,18 @@
         .pousadas{
             text-align: center;
             display: inline-block;
-            padding: 32px;
+            padding: auto;
+            background-color: white;
+            margin-inline: 10px;
+            
+        }
+        .pousadas_esgotada{
+            background-image: url(imagens/esgotado.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            display: inline-block;
+            padding: auto;
             background-color: white;
             margin-inline: 10px;
             
@@ -35,17 +46,6 @@
             text-align: center;
             margin: 10px;
             padding: 10px;
-        }
-        .pousadas_esgotada{
-            background-image: url(imagens/vendido.jpeg);
-            background-repeat: no-repeat;
-            background-position: center;
-            text-align: center;
-            display: inline-block;
-            padding: 32px;
-            background-color: white;
-            margin-inline: 10px;
-            
         }
         h1{
             color: white;
@@ -76,14 +76,14 @@
 
         
         nav{                        /*menu*/
-            background-color: var(--cor5);
-            padding: 10px; /*distanciamento*/
             box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
             text-align: center;
+            display: inline-flex;
+            background-color: orangered;
         }
 
         nav > a{                    /*link do menu*/
-            color: black;
+            color: rgb(136, 208, 250);;
             padding: 10px; /*dist. dos links*/
             border-radius: 5px; /*arred. da borda*/
             text-decoration: none; /*tirar sublinhado*/ 
@@ -92,13 +92,17 @@
         }
 
         nav > a:hover {             /*quando passa o mouse em cima*/
-            background-color: var(--cor3);
-            color: rgb(136, 208, 250);
+            background-color: rgb(136, 208, 250);
+            color: orangered;
         }
 
         img{
             padding: 4px;
         }
+        .flyer > img{
+            width: 80%;
+        }
+        
     </style>
 
     <link rel="shortcut icon" type="imagex/png" href="imagens/teste/mdf.ico">
@@ -110,15 +114,27 @@
     </div>  
     <nav>
         <a href="inicial_espanhol.html">INICIO</a>
+    </nav>
+    <nav>
         <a href="pacotes_espanhol.html">PAQUETES</a>
+    </nav> 
+    <nav>
         <a href="professores_espanhol.html">ARTISTAS</a>
+    </nav> 
+    <nav>
         <a href="galeria_espanhol.html">GALERÍA</a>
-        <!--    
+    </nav> 
+    <!-- 
+    <nav>
         <a href="programacao_espanhol.html">PROGRAMACIÓN</a>
+    </nav>
+    <nav>
         <a href="aulas_espanhol.html">CLASES</a>
+    </nav>
+    <nav>
         <a href="como_chegar_espanho.html">CÓMO LLEGAR</a>
-        -->
-        </nav>
+    </nav>
+    -->
     <br>
     <br>
     <br>

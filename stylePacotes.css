@@ -56,6 +56,11 @@ main {
   .pix > div > h4 {
     color: black;
   }
+
+  nav {
+  display: inline-flex;
+  }
+
   nav > a {
     /*link do menu*/
     color: rgb(136, 208, 250);
@@ -79,3 +84,4 @@ main {
     width: 220px;
     height: 60px;
   }
+ 

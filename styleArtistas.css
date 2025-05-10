@@ -38,6 +38,9 @@ width: 25%;
     
 }
 
+nav {
+    display: inline-flex;
+}
 nav > a{                    /*link do menu*/
     background-color: orangered;
     color: rgb(136, 208, 250);

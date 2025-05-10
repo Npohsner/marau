@@ -12,6 +12,9 @@ body{
     background-color: rgb(243, 226, 151);
 
 }
+nav {
+    display: inline-flex;
+}
 nav > a{                    /*link do menu*/
     background-color: orangered;
     color: rgb(136, 208, 250);
