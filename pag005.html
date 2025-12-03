@@ -42,6 +42,8 @@
             margin-inline: 10px;
             
         }
+
+        
         div{
             text-align: center;
             margin: 10px;
@@ -102,6 +104,54 @@
         .flyer > img{
             width: 80%;
         }
+
+        .flyer {
+        position: relative;
+        display: inline-block;
+        }
+
+        .flyer img {
+            display: block;
+            width: 100%;
+            position: center;
+        }
+
+        /* Imagem base (primeira) */
+        .flyer .base {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Imagem sobreposta (esgotado.jpeg) */
+        .flyer .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.3); /* centraliza e deixa com 30% do tamanho */
+            opacity: 0.5; /* transparência */
+            z-index: 2;
+            pointer-events: none; /* evita interferência com cliques */
+        }
+        .flyer .item {
+    position: relative;
+    display: inline-block;
+}
+
+.flyer .item img {
+    width: 100%;
+    display: block;
+}
+
+/* Imagem sobreposta */
+.flyer .item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9); /* reduz para 30% */
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 5;
+}
         
     </style>
 
@@ -149,13 +199,24 @@
     
     <br>
     <div class="flyer">
+         <div class="item">
+            <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_01.jpg" alt="">
+        </div>
 
-        <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_01.jpg" alt="">
-        <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_02.jpg" alt="">
-        <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_03.jpg" alt="">
-        <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_04.jpg" alt="">
-        <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_05.jpg" alt="">
-        
+        <div class="item">
+            <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_02.jpg" alt="">
+            <img class="overlay" src="imagens/esgotado.jpeg" alt="">
+        </div>
+        <div class="item">
+            <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_03.jpg" alt="">
+            <img class="overlay" src="imagens/esgotado.jpeg" alt="">
+        </div>
+        <div class="item">
+            <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_04.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="fotos/Pousadas/MDF_ACOMODAÇÕES_05.jpg" alt="">
+        </div>
     </div>
 
 
